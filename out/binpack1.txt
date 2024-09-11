@@ -14,7 +14,7 @@ Problem ID: u120_02
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 46
 First-Fit (Greedy): 48 bins
 Improved VND (Heuristic): 48 bins
-ILS (Metaheuristic): 48 bins
+ILS (Metaheuristic): 47 bins
 ----------------------
 Problem ID: u120_03
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 49
@@ -32,13 +32,13 @@ Problem ID: u120_05
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 48
 First-Fit (Greedy): 52 bins
 Improved VND (Heuristic): 50 bins
-ILS (Metaheuristic): 50 bins
+ILS (Metaheuristic): 49 bins
 ----------------------
 Problem ID: u120_06
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 48
 First-Fit (Greedy): 51 bins
 Improved VND (Heuristic): 50 bins
-ILS (Metaheuristic): 50 bins
+ILS (Metaheuristic): 49 bins
 ----------------------
 Problem ID: u120_07
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 49
@@ -62,19 +62,19 @@ Problem ID: u120_10
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 52
 First-Fit (Greedy): 56 bins
 Improved VND (Heuristic): 54 bins
-ILS (Metaheuristic): 54 bins
+ILS (Metaheuristic): 53 bins
 ----------------------
 Problem ID: u120_11
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 49
 First-Fit (Greedy): 52 bins
 Improved VND (Heuristic): 51 bins
-ILS (Metaheuristic): 51 bins
+ILS (Metaheuristic): 50 bins
 ----------------------
 Problem ID: u120_12
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 48
 First-Fit (Greedy): 52 bins
 Improved VND (Heuristic): 51 bins
-ILS (Metaheuristic): 51 bins
+ILS (Metaheuristic): 50 bins
 ----------------------
 Problem ID: u120_13
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 49
@@ -86,31 +86,31 @@ Problem ID: u120_14
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 50
 First-Fit (Greedy): 53 bins
 Improved VND (Heuristic): 52 bins
-ILS (Metaheuristic): 52 bins
+ILS (Metaheuristic): 51 bins
 ----------------------
 Problem ID: u120_15
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 48
 First-Fit (Greedy): 53 bins
-Improved VND (Heuristic): 52 bins
-ILS (Metaheuristic): 50 bins
+Improved VND (Heuristic): 51 bins
+ILS (Metaheuristic): 49 bins
 ----------------------
 Problem ID: u120_16
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 52
 First-Fit (Greedy): 56 bins
 Improved VND (Heuristic): 54 bins
-ILS (Metaheuristic): 54 bins
+ILS (Metaheuristic): 53 bins
 ----------------------
 Problem ID: u120_17
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 52
 First-Fit (Greedy): 56 bins
 Improved VND (Heuristic): 55 bins
-ILS (Metaheuristic): 55 bins
+ILS (Metaheuristic): 53 bins
 ----------------------
 Problem ID: u120_18
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 49
 First-Fit (Greedy): 52 bins
 Improved VND (Heuristic): 51 bins
-ILS (Metaheuristic): 51 bins
+ILS (Metaheuristic): 50 bins
 ----------------------
 Problem ID: u120_19
 Bin Capacity: 150, Number of Items: 120, Best Known Bins: 50

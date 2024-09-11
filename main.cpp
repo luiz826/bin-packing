@@ -200,7 +200,7 @@ int main() {
         // Running the algorithms and saving results
         int firstFitResult = firstFit(weights, binCapacity);
         int vndResult = VND(weights, binCapacity);
-        int maxIterations = 1;
+        int maxIterations = 1000;
         int ilsResult = ILS(weights, binCapacity, maxIterations);
 
         // Writing results to file
