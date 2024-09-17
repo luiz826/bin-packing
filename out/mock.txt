@@ -1,0 +1,6 @@
+Problem ID: utest_00
+Bin Capacity: 100, Number of Items: 5, Best Known Bins: 48
+First-Fit (Greedy): 4 bins
+Improved VND (Heuristic): 4 bins
+ILS (Metaheuristic): 4 bins
+----------------------

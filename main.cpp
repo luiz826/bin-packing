@@ -14,7 +14,7 @@ int firstFit(vector<int>& weights, int binCapacity) {
 
     for (int weight : weights) {
         bool placed = false;
-
+        
         for (int& bin : bins) {
             if (bin + weight <= binCapacity) {
                 bin += weight;
@@ -31,53 +31,8 @@ int firstFit(vector<int>& weights, int binCapacity) {
     return bins.size();
 }
 
-// Reinsertion neighborhood
-bool reinsertion(vector<int>& weights, int binCapacity, int& bestBins) {
-    bool improvement = false;
-    for (int i = 0; i < weights.size(); i++) {
-        for (int j = 0; j < weights.size(); j++) {
-            if (i != j) {
-                // Reinserting item i at position j
-                int temp = weights[i];
-                weights.erase(weights.begin() + i);
-                weights.insert(weights.begin() + j, temp);
-                int newBins = firstFit(weights, binCapacity);
-                if (newBins < bestBins) {
-                    bestBins = newBins;
-                    improvement = true;
-                } else {
-                    // Undo reinsertion if no improvement
-                    weights.erase(weights.begin() + j);
-                    weights.insert(weights.begin() + i, temp);
-                }
-            }
-        }
-    }
-    return improvement;
-}
-
-// Two-opt neighborhood: Swap between two bins
-bool twoOptSwap(vector<int>& weights, int binCapacity, int& bestBins) {
-    bool improvement = false;
-    for (int i = 0; i < weights.size(); i++) {
-        for (int j = i + 1; j < weights.size(); j++) {
-            // Swap items i and j
-            swap(weights[i], weights[j]);
-            int newBins = firstFit(weights, binCapacity);
-            if (newBins < bestBins) {
-                bestBins = newBins;
-                improvement = true;
-            } else {
-                // Undo swap if no improvement
-                swap(weights[i], weights[j]);
-            }
-        }
-    }
-    return improvement;
-}
-
 // Swap-Reinsertion neighborhood: Swap two items and reinsert one into another position
-bool swapReinsertion(vector<int>& weights, int binCapacity, int& bestBins) {
+bool swapReallocation(vector<int>& weights, int binCapacity, int& bestBins) {
     bool improvement = false;
     
     for (int i = 0; i < weights.size(); i++) {
@@ -108,27 +63,246 @@ bool swapReinsertion(vector<int>& weights, int binCapacity, int& bestBins) {
     return improvement;
 }
 
+// Destroy a subset of bins and reallocate the items
+bool destroyAndReallocate(vector<int>& weights, int binCapacity, int& bestBins) {
+    vector<int> bins;
+    vector<vector<int>> binItems;  // Store items per bin for easy removal
+    vector<int> tempWeights = weights;
+    
+    for (int weight : tempWeights) {
+        bool placed = false;
+        for (int i = 0; i < bins.size(); i++) {
+            if (bins[i] + weight <= binCapacity) {
+                bins[i] += weight;
+                binItems[i].push_back(weight);
+                placed = true;
+                break;
+            }
+        }
+        if (!placed) {
+            bins.push_back(weight);
+            binItems.push_back({weight});
+        }
+    }
 
-// Improved VND with multiple neighborhoods
-int VND(vector<int>& weights, int binCapacity) {
-    int bestBins = firstFit(weights, binCapacity);
+    // Destroy some bins randomly (25% of bins)
+    int numBinsToDestroy = max(1, static_cast<int>(bins.size() / 2));
+    vector<int> itemsToReallocate;
+
+    for (int i = 0; i < numBinsToDestroy; i++) {
+        int binToDestroy = rand() % binItems.size();
+        // Collect items from destroyed bin
+        itemsToReallocate.insert(itemsToReallocate.end(), binItems[binToDestroy].begin(), binItems[binToDestroy].end());
+        // Remove bin
+        binItems.erase(binItems.begin() + binToDestroy);
+        bins.erase(bins.begin() + binToDestroy);
+    }
+
+    // Reallocate items
+    for (int item : itemsToReallocate) {
+        bool placed = false;
+        for (int& bin : bins) {
+            if (bin + item <= binCapacity) {
+                bin += item;
+                placed = true;
+                break;
+            }
+        }
+        if (!placed) {
+            bins.push_back(item);
+        }
+    }
+
+    int newBins = bins.size();
+    
+    if (newBins < bestBins) {
+        bestBins = newBins;
+        return true;
+    }
+
+    return false;
+}
+
+// Perturbation: Try to reallocate all items from each bin to other random bins
+bool reallocateBins(vector<int>& weights, int binCapacity, int& bestBins) {
+    vector<int> bins;
+    vector<vector<int>> binItems;  // Store items per bin for easy removal
+    vector<int> tempWeights = weights;
+
+    // First-Fit to assign items to bins for reallocation step
+    for (int weight : tempWeights) {
+        bool placed = false;
+        for (int i = 0; i < bins.size(); i++) {
+            if (bins[i] + weight <= binCapacity) {
+                bins[i] += weight;
+                binItems[i].push_back(weight);
+                placed = true;
+                break;
+            }
+        }
+        if (!placed) {
+            bins.push_back(weight);
+            binItems.push_back({weight});
+        }
+    }
+
+    random_device rd;
+    mt19937 g(rd());
+
+    // Try to reallocate each bin's items to other bins
+    for (int binIdx = 0; binIdx < binItems.size(); binIdx++) {
+        vector<int> itemsToReallocate = binItems[binIdx];
+        bool success = true;
+
+        // Shuffle bins to attempt reallocation
+        shuffle(bins.begin(), bins.end(), g);
+        
+        for (int item : itemsToReallocate) {
+            bool placed = false;
+
+            // Try to fit the item in other bins
+            for (int& bin : bins) {
+                if (bin + item <= binCapacity) {
+                    bin += item;
+                    placed = true;
+                    break;
+                }
+            }
+
+            // If any item cannot be placed in a bin, reallocation fails
+            if (!placed) {
+                success = false;
+                break;
+            }
+        }
+
+        // If successful, empty the bin by reassigning all its items
+        if (success) {
+            binItems[binIdx].clear();  // Empty the original bin
+        }
+    }
+
+    // Count the new number of bins
+    int newBins = 0;
+    for (const auto& bin : binItems) {
+        if (!bin.empty()) newBins++;
+    }
+
+    if (newBins < bestBins) {
+        bestBins = newBins;
+        return true;
+    }
+
+    return false;
+}
+
+// Perturbation: Try to merge N random bins and allocate the remaining items randomly
+bool mergeAndReallocateNBins(vector<int>& weights, int binCapacity, int& bestBins, int N) {
+    vector<int> bins;
+    vector<vector<int>> binItems;  // Store items per bin for easy removal
+    vector<int> tempWeights = weights;
+
+    // First-Fit to assign items to bins for merging and reallocation step
+    for (int weight : tempWeights) {
+        bool placed = false;
+        for (int i = 0; i < bins.size(); i++) {
+            if (bins[i] + weight <= binCapacity) {
+                bins[i] += weight;
+                binItems[i].push_back(weight);
+                placed = true;
+                break;
+            }
+        }
+        if (!placed) {
+            bins.push_back(weight);
+            binItems.push_back({weight});
+        }
+    }
+
+    random_device rd;
+    mt19937 g(rd());
+
+    // Select N random bins
+    vector<int> selectedBins;
+    while (selectedBins.size() < N && selectedBins.size() < binItems.size()) {
+        int binIdx = rand() % binItems.size();
+        if (find(selectedBins.begin(), selectedBins.end(), binIdx) == selectedBins.end()) {
+            selectedBins.push_back(binIdx);
+        }
+    }
+
+    // Try to merge selected bins
+    for (int i = 0; i < selectedBins.size() - 1; i++) {
+        int binIdx1 = selectedBins[i];
+        int binIdx2 = selectedBins[i + 1];
+
+        // Merge the two selected bins if possible
+        vector<int> mergedBinItems = binItems[binIdx1];
+        mergedBinItems.insert(mergedBinItems.end(), binItems[binIdx2].begin(), binItems[binIdx2].end());
+
+        int mergedBinWeight = bins[binIdx1] + bins[binIdx2];
+
+        if (mergedBinWeight <= binCapacity) {
+            // Success: Merge bins
+            bins[binIdx1] = mergedBinWeight;
+            binItems[binIdx1] = mergedBinItems;
+            bins.erase(bins.begin() + binIdx2);
+            binItems.erase(binItems.begin() + binIdx2);
+        } else {
+            // Failed merge: Randomly reallocate items from bin2
+            vector<int> remainingItems = binItems[binIdx2];
+            binItems.erase(binItems.begin() + binIdx2);
+            bins.erase(bins.begin() + binIdx2);
+
+            // Randomly allocate remaining items
+            for (int item : remainingItems) {
+                bool placed = false;
+
+                // Shuffle bins and try to place the item
+                shuffle(bins.begin(), bins.end(), g);
+                for (int& bin : bins) {
+                    if (bin + item <= binCapacity) {
+                        bin += item;
+                        placed = true;
+                        break;
+                    }
+                }
+
+                // If item cannot be placed, create a new bin
+                if (!placed) {
+                    bins.push_back(item);
+                    binItems.push_back({item});
+                }
+            }
+        }
+    }
+
+    // Count the new number of bins
+    int newBins = bins.size();
+
+    if (newBins < bestBins) {
+        bestBins = newBins;
+        return true;
+    }
+
+    return false;
+}
+
+
+// VND (Variable Neighborhood Descent) with swapReallocation and destroyAndReallocate
+int VND(vector<int>& weights, int bestBins, int binCapacity) {
     bool improvement = true;
 
     while (improvement) {
         improvement = false;
 
-        // Swap neighborhood
-        if (twoOptSwap(weights, binCapacity, bestBins)) {
+        // Swap-Reallocation Neighborhood
+        if (swapReallocation(weights, binCapacity, bestBins)) {
             improvement = true;
         }
 
-        // Reinsertion neighborhood
-        if (reinsertion(weights, binCapacity, bestBins)) {
-            improvement = true;
-        }
-
-        // Shuffle neighborhood
-        if (swapReinsertion(weights, binCapacity, bestBins)) {
+        // Destroy-and-Reallocate Neighborhood
+        if (destroyAndReallocate(weights, binCapacity, bestBins)) {
             improvement = true;
         }
     }
@@ -136,24 +310,28 @@ int VND(vector<int>& weights, int binCapacity) {
     return bestBins;
 }
 
-// ILS (Iterated Local Search) using the improved VND
-int ILS(vector<int> weights, int binCapacity, int maxIterations) {
-    int currentBins = VND(weights, binCapacity);
-    int bestBins = currentBins;
+
+// ILS (Iterated Local Search) using the improved VND with bin destruction
+int ILS(vector<int> weights, int bestBins, int binCapacity, int maxIterations) {
+    int currentBins = bestBins;
+    //int bestBins = currentBins;
 
     for (int iter = 0; iter < maxIterations; iter++) {
-        cout << "Iteration " << iter + 1 << ": " << bestBins << " bins" << endl;
-        
+        if (iter % 10 == 0) {
+            cout << "Iteration " << iter + 1 << ": " << bestBins << " bins" << endl;
+        }
         // Perturbation: Randomly shuffle some elements
         for (int i = 0; i < weights.size(); i++) {
             if (rand() % 2) {
-                int j = rand() % weights.size();
-                swap(weights[i], weights[j]);
+                mergeAndReallocateNBins(weights, binCapacity, bestBins, 10);
+            }
+            else {
+                reallocateBins(weights, binCapacity, currentBins);
             }
         }
 
         // Apply VND on the perturbed solution
-        int newBins = VND(weights, binCapacity);
+        int newBins = VND(weights, bestBins, binCapacity);
 
         if (newBins < bestBins) {
             bestBins = newBins;
@@ -199,9 +377,9 @@ int main() {
 
         // Running the algorithms and saving results
         int firstFitResult = firstFit(weights, binCapacity);
-        int vndResult = VND(weights, binCapacity);
-        int maxIterations = 1000;
-        int ilsResult = ILS(weights, binCapacity, maxIterations);
+        int vndResult = VND(weights, firstFitResult, binCapacity);
+        int maxIterations = 100;
+        int ilsResult = ILS(weights, vndResult, binCapacity, maxIterations);
 
         // Writing results to file
         outputFile << "First-Fit (Greedy): " << firstFitResult << " bins" << endl;
@@ -215,7 +393,45 @@ int main() {
         cout << "First-Fit (Greedy): " << firstFitResult << " bins" << endl;
         cout << "Improved VND (Heuristic): " << vndResult << " bins" << endl;
         cout << "ILS (Metaheuristic): " << ilsResult << " bins" << endl;
+        
+        // print the bins for the last solution, with the itens in each bin, like {{1, 2, 3}, {4, 5}, {6}}
+        vector<int> bins;
+        vector<vector<int>> binItems;  // Store items per bin for easy removal
+        vector<int> tempWeights = weights;
+        
+        for (int weight : tempWeights) {
+            bool placed = false;
+            for (int i = 0; i < bins.size(); i++) {
+                if (bins[i] + weight <= binCapacity) {
+                    bins[i] += weight;
+                    binItems[i].push_back(weight);
+                    placed = true;
+                    break;
+                }
+            }
+            if (!placed) {
+                bins.push_back(weight);
+                binItems.push_back({weight});
+            }
+        }
+
+        cout << "Bins sum: ";
+        for (int bin : bins) {
+            cout << bin << " ";
+        }
+        cout << endl;
+        cout << "Bins: ";
+        for (const auto& bin : binItems) {
+            cout << "{";
+            for (int item : bin) {
+                cout << item << ", ";
+            }
+            cout << "} ";
+        }
+        cout << endl;
+        
         cout << "----------------------" << endl;
+
     }
 
     inputFile.close();
