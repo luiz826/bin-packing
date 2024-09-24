@@ -1,0 +1,427 @@
+Bin (Capacity: 20, Cost: 6): 16 3 1  - Used Capacity: 20
+Bin (Capacity: 32, Cost: 22): 5 11 12 1 1 1 1  - Used Capacity: 32
+Bin (Capacity: 36, Cost: 8): 12 6 9 5 3 1  - Used Capacity: 36
+Bin (Capacity: 49, Cost: 13): 15 18 15 1  - Used Capacity: 49
+Bin (Capacity: 52, Cost: 24): 13 5 11 17 3 2 1  - Used Capacity: 52
+Bin (Capacity: 51, Cost: 16): 9 18 10 13 1  - Used Capacity: 51
+Bin (Capacity: 40, Cost: 8): 9 7 11 13  - Used Capacity: 40
+Bin (Capacity: 27, Cost: 11): 10 14 2 1  - Used Capacity: 27
+Bin (Capacity: 34, Cost: 5): 19 11 3 1  - Used Capacity: 34
+Bin (Capacity: 40, Cost: 8): 18 17 2 3  - Used Capacity: 40
+Bin (Capacity: 50, Cost: 11): 18 15 16 1  - Used Capacity: 50
+Bin (Capacity: 21, Cost: 20): 7 10 2 2  - Used Capacity: 21
+Bin (Capacity: 58, Cost: 18): 19 19 15 3 2  - Used Capacity: 58
+Bin (Capacity: 27, Cost: 12): 20 5 2  - Used Capacity: 27
+Bin (Capacity: 37, Cost: 7): 15 9 11 2  - Used Capacity: 37
+Bin (Capacity: 40, Cost: 22): 20 9 4 7  - Used Capacity: 40
+Bin (Capacity: 35, Cost: 15): 13 16 6  - Used Capacity: 35
+Bin (Capacity: 41, Cost: 24): 16 13 12  - Used Capacity: 41
+Bin (Capacity: 28, Cost: 16): 17 8 3  - Used Capacity: 28
+Bin (Capacity: 28, Cost: 10): 13 11 3 1  - Used Capacity: 28
+Bin (Capacity: 31, Cost: 13): 16 13 2  - Used Capacity: 31
+Bin (Capacity: 48, Cost: 10): 16 7 8 15 2  - Used Capacity: 48
+Bin (Capacity: 44, Cost: 6): 20 6 17 1  - Used Capacity: 44
+Bin (Capacity: 50, Cost: 19): 11 15 18 6  - Used Capacity: 50
+Bin (Capacity: 22, Cost: 6): 8 11 3  - Used Capacity: 22
+Bin (Capacity: 40, Cost: 13): 15 17 8  - Used Capacity: 40
+Bin (Capacity: 44, Cost: 21): 15 10 15 3 1  - Used Capacity: 44
+Bin (Capacity: 34, Cost: 16): 14 13 5 2  - Used Capacity: 34
+Bin (Capacity: 48, Cost: 12): 19 6 17 5 1  - Used Capacity: 48
+Bin (Capacity: 36, Cost: 13): 11 20 5  - Used Capacity: 36
+Bin (Capacity: 30, Cost: 18): 10 14 6  - Used Capacity: 30
+Bin (Capacity: 24, Cost: 22): 10 12 2  - Used Capacity: 24
+Bin (Capacity: 34, Cost: 11): 19 12 3  - Used Capacity: 34
+Bin (Capacity: 30, Cost: 13): 18 12  - Used Capacity: 30
+Bin (Capacity: 40, Cost: 21): 19 14 7  - Used Capacity: 40
+Bin (Capacity: 47, Cost: 19): 19 15 13  - Used Capacity: 47
+Bin (Capacity: 59, Cost: 16): 16 4 17 6 5 4 3 3 1  - Used Capacity: 59
+Bin (Capacity: 49, Cost: 10): 13 8 13 6 6 3  - Used Capacity: 49
+Bin (Capacity: 31, Cost: 12): 16 15  - Used Capacity: 31
+Bin (Capacity: 28, Cost: 17): 17 11  - Used Capacity: 28
+Bin (Capacity: 28, Cost: 6): 17 10 1  - Used Capacity: 28
+Bin (Capacity: 57, Cost: 16): 16 8 14 11 4 3 1  - Used Capacity: 57
+Bin (Capacity: 49, Cost: 10): 20 20 6 3  - Used Capacity: 49
+Bin (Capacity: 47, Cost: 16): 18 19 7 3  - Used Capacity: 47
+Bin (Capacity: 32, Cost: 17): 14 6 8 4  - Used Capacity: 32
+Bin (Capacity: 55, Cost: 9): 15 5 16 10 8 1  - Used Capacity: 55
+Bin (Capacity: 30, Cost: 13): 19 8 2 1  - Used Capacity: 30
+Bin (Capacity: 32, Cost: 19): 13 7 9 2 1  - Used Capacity: 32
+Bin (Capacity: 20, Cost: 18): 16 4  - Used Capacity: 20
+Bin (Capacity: 37, Cost: 15): 14 20 2 1  - Used Capacity: 37
+Bin (Capacity: 58, Cost: 9): 16 20 16 4 2  - Used Capacity: 58
+Bin (Capacity: 55, Cost: 11): 14 17 14 9 1  - Used Capacity: 55
+Bin (Capacity: 50, Cost: 21): 19 19 8 3 1  - Used Capacity: 50
+Bin (Capacity: 55, Cost: 14): 17 17 18 3  - Used Capacity: 55
+Bin (Capacity: 22, Cost: 18): 17 4 1  - Used Capacity: 22
+Bin (Capacity: 21, Cost: 14): 14 6 1  - Used Capacity: 21
+Bin (Capacity: 34, Cost: 14): 16 10 8  - Used Capacity: 34
+Bin (Capacity: 46, Cost: 14): 18 16 12  - Used Capacity: 46
+Bin (Capacity: 35, Cost: 5): 13 13 8 1  - Used Capacity: 35
+Bin (Capacity: 23, Cost: 13): 17 6  - Used Capacity: 23
+Bin (Capacity: 23, Cost: 15): 14 9  - Used Capacity: 23
+Bin (Capacity: 47, Cost: 18): 12 19 14 2  - Used Capacity: 47
+Bin (Capacity: 30, Cost: 10): 7 18 4 1  - Used Capacity: 30
+Bin (Capacity: 37, Cost: 21): 15 18 3 1  - Used Capacity: 37
+Bin (Capacity: 57, Cost: 18): 17 11 19 9 1  - Used Capacity: 57
+Bin (Capacity: 50, Cost: 18): 20 19 8 3  - Used Capacity: 50
+Bin (Capacity: 25, Cost: 7): 20 5  - Used Capacity: 25
+Bin (Capacity: 55, Cost: 21): 14 13 17 7 4  - Used Capacity: 55
+Bin (Capacity: 40, Cost: 23): 13 19 8  - Used Capacity: 40
+Bin (Capacity: 37, Cost: 15): 11 10 12 4  - Used Capacity: 37
+Bin (Capacity: 24, Cost: 5): 19 5  - Used Capacity: 24
+Bin (Capacity: 51, Cost: 17): 11 20 18 2  - Used Capacity: 51
+Bin (Capacity: 35, Cost: 18): 14 16 5  - Used Capacity: 35
+Bin (Capacity: 56, Cost: 10): 17 15 11 10 3  - Used Capacity: 56
+Bin (Capacity: 37, Cost: 8): 10 14 11 2  - Used Capacity: 37
+Bin (Capacity: 47, Cost: 10): 20 17 10  - Used Capacity: 47
+Bin (Capacity: 50, Cost: 7): 18 19 11 2  - Used Capacity: 50
+Bin (Capacity: 49, Cost: 16): 16 17 7 9  - Used Capacity: 49
+Bin (Capacity: 20, Cost: 16): 11 5 3 1  - Used Capacity: 20
+Bin (Capacity: 50, Cost: 12): 10 11 20 9  - Used Capacity: 50
+Bin (Capacity: 25, Cost: 18): 18 6 1  - Used Capacity: 25
+Bin (Capacity: 60, Cost: 20): 14 17 14 9 5 1  - Used Capacity: 60
+Bin (Capacity: 44, Cost: 18): 20 20 3 1  - Used Capacity: 44
+Bin (Capacity: 55, Cost: 14): 16 18 18 3  - Used Capacity: 55
+Bin (Capacity: 54, Cost: 21): 17 20 16 1  - Used Capacity: 54
+Bin (Capacity: 49, Cost: 11): 7 7 8 9 11 7  - Used Capacity: 49
+Bin (Capacity: 59, Cost: 16): 10 19 13 10 6 1  - Used Capacity: 59
+Bin (Capacity: 27, Cost: 10): 18 8 1  - Used Capacity: 27
+Bin (Capacity: 36, Cost: 12): 15 15 6  - Used Capacity: 36
+Bin (Capacity: 35, Cost: 16): 13 14 4 4  - Used Capacity: 35
+Bin (Capacity: 33, Cost: 10): 9 17 7  - Used Capacity: 33
+Bin (Capacity: 40, Cost: 22): 18 11 11  - Used Capacity: 40
+Bin (Capacity: 22, Cost: 22): 19 3  - Used Capacity: 22
+Bin (Capacity: 43, Cost: 15): 14 18 5 6  - Used Capacity: 43
+Bin (Capacity: 59, Cost: 18): 20 20 18 1  - Used Capacity: 59
+Bin (Capacity: 59, Cost: 7): 7 18 10 20 2 2  - Used Capacity: 59
+Bin (Capacity: 34, Cost: 8): 5 8 17 2 2  - Used Capacity: 34
+Bin (Capacity: 24, Cost: 13): 11 8 5  - Used Capacity: 24
+Bin (Capacity: 56, Cost: 16): 18 9 17 10 2  - Used Capacity: 56
+Bin (Capacity: 55, Cost: 19): 9 8 14 20 4  - Used Capacity: 55
+Bin (Capacity: 41, Cost: 23): 18 7 9 6 1  - Used Capacity: 41
+Bin (Capacity: 21, Cost: 16): 10 8 3  - Used Capacity: 21
+Bin (Capacity: 45, Cost: 11): 12 19 13 1  - Used Capacity: 45
+Bin (Capacity: 56, Cost: 16): 20 9 13 12 2  - Used Capacity: 56
+Bin (Capacity: 57, Cost: 22): 15 9 12 9 6 6  - Used Capacity: 57
+Bin (Capacity: 21, Cost: 6): 17 4  - Used Capacity: 21
+Bin (Capacity: 44, Cost: 13): 11 20 7 6  - Used Capacity: 44
+Bin (Capacity: 49, Cost: 16): 13 13 16 5 2  - Used Capacity: 49
+Bin (Capacity: 50, Cost: 9): 16 14 14 5 1  - Used Capacity: 50
+Bin (Capacity: 47, Cost: 24): 13 18 10 5 1  - Used Capacity: 47
+Bin (Capacity: 40, Cost: 23): 18 10 6 6  - Used Capacity: 40
+Bin (Capacity: 57, Cost: 22): 18 18 9 5 5 2  - Used Capacity: 57
+Bin (Capacity: 46, Cost: 11): 20 13 12 1  - Used Capacity: 46
+Bin (Capacity: 26, Cost: 16): 15 10 1  - Used Capacity: 26
+Bin (Capacity: 53, Cost: 24): 19 16 7 11  - Used Capacity: 53
+Bin (Capacity: 40, Cost: 8): 19 6 11 3 1  - Used Capacity: 40
+Bin (Capacity: 55, Cost: 14): 20 19 13 3  - Used Capacity: 55
+Bin (Capacity: 51, Cost: 15): 16 20 9 5 1  - Used Capacity: 51
+Bin (Capacity: 49, Cost: 5): 14 6 8 15 5 1  - Used Capacity: 49
+Bin (Capacity: 32, Cost: 21): 16 13 3  - Used Capacity: 32
+Bin (Capacity: 28, Cost: 18): 12 14 2  - Used Capacity: 28
+Bin (Capacity: 21, Cost: 11): 16 4 1  - Used Capacity: 21
+Bin (Capacity: 52, Cost: 19): 19 17 9 7  - Used Capacity: 52
+Bin (Capacity: 30, Cost: 15): 12 15 3  - Used Capacity: 30
+Bin (Capacity: 46, Cost: 13): 13 14 18 1  - Used Capacity: 46
+Bin (Capacity: 36, Cost: 15): 15 11 9 1  - Used Capacity: 36
+Bin (Capacity: 51, Cost: 10): 20 16 15  - Used Capacity: 51
+Bin (Capacity: 49, Cost: 18): 12 14 11 5 6 1  - Used Capacity: 49
+Bin (Capacity: 22, Cost: 13): 19 3  - Used Capacity: 22
+Bin (Capacity: 20, Cost: 9): 11 7 2  - Used Capacity: 20
+Bin (Capacity: 33, Cost: 23): 13 18 2  - Used Capacity: 33
+Bin (Capacity: 41, Cost: 19): 12 18 6 5  - Used Capacity: 41
+Bin (Capacity: 44, Cost: 19): 14 17 11 2  - Used Capacity: 44
+Bin (Capacity: 30, Cost: 18): 12 11 4 3  - Used Capacity: 30
+Bin (Capacity: 28, Cost: 11): 15 12 1  - Used Capacity: 28
+Bin (Capacity: 53, Cost: 19): 17 12 17 7  - Used Capacity: 53
+Bin (Capacity: 39, Cost: 22): 12 11 5 8 3  - Used Capacity: 39
+Bin (Capacity: 35, Cost: 18): 12 19 4  - Used Capacity: 35
+Bin (Capacity: 57, Cost: 10): 15 16 12 14  - Used Capacity: 57
+Bin (Capacity: 24, Cost: 13): 19 5  - Used Capacity: 24
+Bin (Capacity: 52, Cost: 8): 13 10 7 7 13 2  - Used Capacity: 52
+Bin (Capacity: 59, Cost: 23): 18 16 4 19 2  - Used Capacity: 59
+Bin (Capacity: 38, Cost: 23): 9 20 3 6  - Used Capacity: 38
+Bin (Capacity: 21, Cost: 5): 10 10 1  - Used Capacity: 21
+Bin (Capacity: 34, Cost: 6): 12 12 3 4 3  - Used Capacity: 34
+Bin (Capacity: 44, Cost: 24): 14 16 11 3  - Used Capacity: 44
+Bin (Capacity: 60, Cost: 9): 12 9 17 17 4  - Used Capacity: 59
+Bin (Capacity: 29, Cost: 15): 10 8 5 4 2  - Used Capacity: 29
+Bin (Capacity: 41, Cost: 9): 20 17 4  - Used Capacity: 41
+Bin (Capacity: 49, Cost: 17): 17 17 13 2  - Used Capacity: 49
+Bin (Capacity: 58, Cost: 23): 20 20 16 2  - Used Capacity: 58
+Bin (Capacity: 53, Cost: 19): 14 17 15 6  - Used Capacity: 52
+Bin (Capacity: 40, Cost: 7): 17 14 3 6  - Used Capacity: 40
+Bin (Capacity: 43, Cost: 13): 11 10 13 9  - Used Capacity: 43
+Bin (Capacity: 48, Cost: 16): 20 13 10 4  - Used Capacity: 47
+Bin (Capacity: 50, Cost: 13): 18 10 18 4  - Used Capacity: 50
+Bin (Capacity: 59, Cost: 23): 13 15 14 11 6  - Used Capacity: 59
+Bin (Capacity: 40, Cost: 21): 18 9 10 3  - Used Capacity: 40
+Bin (Capacity: 38, Cost: 6): 14 17 6  - Used Capacity: 37
+Bin (Capacity: 23, Cost: 23): 16 7  - Used Capacity: 23
+Bin (Capacity: 40, Cost: 17): 17 16 7  - Used Capacity: 40
+Bin (Capacity: 53, Cost: 16): 9 16 11 9 4 4  - Used Capacity: 53
+Bin (Capacity: 46, Cost: 17): 12 19 10 5  - Used Capacity: 46
+Bin (Capacity: 23, Cost: 11): 20 3  - Used Capacity: 23
+Bin (Capacity: 23, Cost: 9): 18 4  - Used Capacity: 22
+Bin (Capacity: 54, Cost: 15): 12 9 9 11 9 4  - Used Capacity: 54
+Bin (Capacity: 58, Cost: 18): 14 16 17 11  - Used Capacity: 58
+Bin (Capacity: 42, Cost: 6): 6 7 18 8 3  - Used Capacity: 42
+Bin (Capacity: 28, Cost: 9): 7 11 10  - Used Capacity: 28
+Bin (Capacity: 55, Cost: 23): 17 11 11 16  - Used Capacity: 55
+Bin (Capacity: 46, Cost: 7): 9 10 10 10 5 2  - Used Capacity: 46
+Bin (Capacity: 60, Cost: 24): 20 20 12 8  - Used Capacity: 60
+Bin (Capacity: 55, Cost: 13): 13 19 14 7 2  - Used Capacity: 55
+Bin (Capacity: 25, Cost: 5): 14 10  - Used Capacity: 24
+Bin (Capacity: 23, Cost: 17): 18 4  - Used Capacity: 22
+Bin (Capacity: 21, Cost: 23): 19 2  - Used Capacity: 21
+Bin (Capacity: 35, Cost: 22): 15 17 3  - Used Capacity: 35
+Bin (Capacity: 51, Cost: 22): 18 14 16 3  - Used Capacity: 51
+Bin (Capacity: 38, Cost: 13): 20 12 5  - Used Capacity: 37
+Bin (Capacity: 42, Cost: 12): 20 19 3  - Used Capacity: 42
+Bin (Capacity: 39, Cost: 17): 20 15 4  - Used Capacity: 39
+Bin (Capacity: 56, Cost: 20): 15 13 12 11 5  - Used Capacity: 56
+Bin (Capacity: 34, Cost: 14): 19 15  - Used Capacity: 34
+Bin (Capacity: 20, Cost: 15): 12 7  - Used Capacity: 19
+Bin (Capacity: 56, Cost: 17): 17 16 8 6 9  - Used Capacity: 56
+Bin (Capacity: 30, Cost: 13):  - Used Capacity: 14
+Bin (Capacity: 56, Cost: 8): 7 15 4 5 4 16 5  - Used Capacity: 56
+Bin (Capacity: 42, Cost: 21): 11 17 9 5  - Used Capacity: 42
+Bin (Capacity: 49, Cost: 5): 9 12 15 12  - Used Capacity: 48
+Bin (Capacity: 28, Cost: 17): 18 7  - Used Capacity: 25
+Bin (Capacity: 44, Cost: 21): 8 14 20  - Used Capacity: 42
+Bin (Capacity: 31, Cost: 6): 6 9 8 7  - Used Capacity: 30
+Bin (Capacity: 40, Cost: 6): 19 14 7  - Used Capacity: 40
+Bin (Capacity: 54, Cost: 20): 12 13 11 11 7  - Used Capacity: 54
+Bin (Capacity: 22, Cost: 17): 12 8  - Used Capacity: 20
+Bin (Capacity: 54, Cost: 22): 14 12 17 8  - Used Capacity: 51
+Bin (Capacity: 29, Cost: 23): 17 5 6  - Used Capacity: 28
+Bin (Capacity: 36, Cost: 10): 13 11 8 4  - Used Capacity: 36
+Bin (Capacity: 24, Cost: 14): 8 9 7  - Used Capacity: 24
+Bin (Capacity: 59, Cost: 6): 14 17 12 15  - Used Capacity: 58
+Bin (Capacity: 26, Cost: 14): 11 8 6  - Used Capacity: 25
+Bin (Capacity: 41, Cost: 20): 19 16 6  - Used Capacity: 41
+Bin (Capacity: 48, Cost: 24): 14 19 9 4  - Used Capacity: 46
+Bin (Capacity: 23, Cost: 15): 17 5  - Used Capacity: 22
+Bin (Capacity: 55, Cost: 19): 17 20 16  - Used Capacity: 53
+Bin (Capacity: 22, Cost: 8): 9 7 5  - Used Capacity: 21
+Bin (Capacity: 24, Cost: 14): 12 7 4  - Used Capacity: 23
+Bin (Capacity: 31, Cost: 8): 17 13  - Used Capacity: 30
+Bin (Capacity: 53, Cost: 5): 17 17 10 8  - Used Capacity: 52
+Bin (Capacity: 44, Cost: 22): 17 11 11  - Used Capacity: 39
+Bin (Capacity: 54, Cost: 15): 11 10 16 14  - Used Capacity: 51
+Bin (Capacity: 31, Cost: 10): 19 7  - Used Capacity: 26
+Bin (Capacity: 42, Cost: 18): 18 18 6  - Used Capacity: 42
+Bin (Capacity: 27, Cost: 17): 17 9  - Used Capacity: 26
+Bin (Capacity: 34, Cost: 20): 18 14  - Used Capacity: 32
+Bin (Capacity: 37, Cost: 22): 14 19  - Used Capacity: 33
+Bin (Capacity: 40, Cost: 5): 7 7 20  - Used Capacity: 34
+Bin (Capacity: 31, Cost: 15): 19 12  - Used Capacity: 31
+Bin (Capacity: 59, Cost: 19): 17 12 8 7 15  - Used Capacity: 59
+Bin (Capacity: 28, Cost: 5): 10 11 7  - Used Capacity: 28
+Bin (Capacity: 39, Cost: 7): 20 19  - Used Capacity: 39
+Bin (Capacity: 44, Cost: 7): 20 8 8  - Used Capacity: 36
+Bin (Capacity: 41, Cost: 6): 15 18  - Used Capacity: 33
+Bin (Capacity: 20, Cost: 20):  - Used Capacity: 0
+Bin (Capacity: 38, Cost: 22): 18 9  - Used Capacity: 27
+Bin (Capacity: 43, Cost: 10):  - Used Capacity: 0
+Bin (Capacity: 54, Cost: 18):  - Used Capacity: 0
+Bin (Capacity: 49, Cost: 21):  - Used Capacity: 0
+Bin (Capacity: 20, Cost: 16):  - Used Capacity: 0
+Bin (Capacity: 60, Cost: 19):  - Used Capacity: 0
+Bin (Capacity: 49, Cost: 14):  - Used Capacity: 0
+Bin (Capacity: 26, Cost: 17):  - Used Capacity: 0
+Bin (Capacity: 41, Cost: 15):  - Used Capacity: 0
+Bin (Capacity: 36, Cost: 13):  - Used Capacity: 0
+Bin (Capacity: 29, Cost: 19):  - Used Capacity: 0
+Bin (Capacity: 37, Cost: 21):  - Used Capacity: 0
+Bin (Capacity: 39, Cost: 8):  - Used Capacity: 0
+Bin (Capacity: 36, Cost: 8):  - Used Capacity: 0
+Bin (Capacity: 48, Cost: 24):  - Used Capacity: 0
+Bin (Capacity: 33, Cost: 9):  - Used Capacity: 0
+Bin (Capacity: 21, Cost: 18):  - Used Capacity: 0
+Bin (Capacity: 43, Cost: 7):  - Used Capacity: 0
+Bin (Capacity: 47, Cost: 14):  - Used Capacity: 0
+Bin (Capacity: 43, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 53, Cost: 11):  - Used Capacity: 0
+Bin (Capacity: 22, Cost: 21):  - Used Capacity: 0
+Bin (Capacity: 21, Cost: 20):  - Used Capacity: 0
+Bin (Capacity: 32, Cost: 11):  - Used Capacity: 0
+Bin (Capacity: 33, Cost: 11):  - Used Capacity: 0
+Bin (Capacity: 21, Cost: 6):  - Used Capacity: 0
+Bin (Capacity: 42, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 54, Cost: 6):  - Used Capacity: 0
+Bin (Capacity: 46, Cost: 8):  - Used Capacity: 0
+Bin (Capacity: 24, Cost: 16):  - Used Capacity: 0
+Bin (Capacity: 56, Cost: 13):  - Used Capacity: 0
+Bin (Capacity: 25, Cost: 18):  - Used Capacity: 0
+Bin (Capacity: 49, Cost: 14):  - Used Capacity: 0
+Bin (Capacity: 52, Cost: 18):  - Used Capacity: 0
+Bin (Capacity: 54, Cost: 6):  - Used Capacity: 0
+Bin (Capacity: 50, Cost: 5):  - Used Capacity: 0
+Bin (Capacity: 51, Cost: 5):  - Used Capacity: 0
+Bin (Capacity: 44, Cost: 15):  - Used Capacity: 0
+Bin (Capacity: 58, Cost: 9):  - Used Capacity: 0
+Bin (Capacity: 33, Cost: 15):  - Used Capacity: 0
+Bin (Capacity: 21, Cost: 15):  - Used Capacity: 0
+Bin (Capacity: 27, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 50, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 42, Cost: 19):  - Used Capacity: 0
+Bin (Capacity: 45, Cost: 19):  - Used Capacity: 0
+Bin (Capacity: 40, Cost: 22):  - Used Capacity: 0
+Bin (Capacity: 56, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 46, Cost: 12):  - Used Capacity: 0
+Bin (Capacity: 22, Cost: 16):  - Used Capacity: 0
+Bin (Capacity: 44, Cost: 24):  - Used Capacity: 0
+Bin (Capacity: 31, Cost: 22):  - Used Capacity: 0
+Bin (Capacity: 57, Cost: 22):  - Used Capacity: 0
+Bin (Capacity: 46, Cost: 12):  - Used Capacity: 0
+Bin (Capacity: 32, Cost: 17):  - Used Capacity: 0
+Bin (Capacity: 30, Cost: 20):  - Used Capacity: 0
+Bin (Capacity: 59, Cost: 10): 14  - Used Capacity: 14
+Bin (Capacity: 34, Cost: 11):  - Used Capacity: 0
+Bin (Capacity: 52, Cost: 10):  - Used Capacity: 0
+Bin (Capacity: 54, Cost: 11):  - Used Capacity: 0
+Bin (Capacity: 60, Cost: 6):  - Used Capacity: 0
+Bin (Capacity: 58, Cost: 14):  - Used Capacity: 0
+Bin (Capacity: 49, Cost: 12):  - Used Capacity: 0
+Bin (Capacity: 24, Cost: 19):  - Used Capacity: 0
+Bin (Capacity: 47, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 40, Cost: 5):  - Used Capacity: 0
+Bin (Capacity: 60, Cost: 12):  - Used Capacity: 0
+Bin (Capacity: 38, Cost: 15):  - Used Capacity: 0
+Bin (Capacity: 33, Cost: 5):  - Used Capacity: 0
+Bin (Capacity: 43, Cost: 22):  - Used Capacity: 0
+Bin (Capacity: 35, Cost: 19):  - Used Capacity: 0
+Bin (Capacity: 46, Cost: 7):  - Used Capacity: 0
+Bin (Capacity: 46, Cost: 13):  - Used Capacity: 0
+Bin (Capacity: 44, Cost: 17):  - Used Capacity: 0
+Bin (Capacity: 38, Cost: 5):  - Used Capacity: 0
+Bin (Capacity: 28, Cost: 7):  - Used Capacity: 0
+Bin (Capacity: 30, Cost: 11):  - Used Capacity: 0
+Bin (Capacity: 58, Cost: 15):  - Used Capacity: 0
+Bin (Capacity: 23, Cost: 17):  - Used Capacity: 0
+Bin (Capacity: 57, Cost: 10):  - Used Capacity: 0
+Bin (Capacity: 21, Cost: 18):  - Used Capacity: 0
+Bin (Capacity: 47, Cost: 8):  - Used Capacity: 0
+Bin (Capacity: 27, Cost: 7):  - Used Capacity: 0
+Bin (Capacity: 59, Cost: 16):  - Used Capacity: 0
+Bin (Capacity: 34, Cost: 7):  - Used Capacity: 0
+Bin (Capacity: 41, Cost: 20):  - Used Capacity: 0
+Bin (Capacity: 28, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 32, Cost: 12):  - Used Capacity: 0
+Bin (Capacity: 57, Cost: 18):  - Used Capacity: 0
+Bin (Capacity: 22, Cost: 9):  - Used Capacity: 0
+Bin (Capacity: 27, Cost: 11):  - Used Capacity: 0
+Bin (Capacity: 58, Cost: 19):  - Used Capacity: 0
+Bin (Capacity: 21, Cost: 10):  - Used Capacity: 0
+Bin (Capacity: 56, Cost: 18):  - Used Capacity: 0
+Bin (Capacity: 23, Cost: 6):  - Used Capacity: 0
+Bin (Capacity: 50, Cost: 8):  - Used Capacity: 0
+Bin (Capacity: 38, Cost: 10):  - Used Capacity: 0
+Bin (Capacity: 22, Cost: 13):  - Used Capacity: 0
+Bin (Capacity: 27, Cost: 18):  - Used Capacity: 0
+Bin (Capacity: 51, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 47, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 45, Cost: 12):  - Used Capacity: 0
+Bin (Capacity: 38, Cost: 17):  - Used Capacity: 0
+Bin (Capacity: 33, Cost: 11):  - Used Capacity: 0
+Bin (Capacity: 28, Cost: 16):  - Used Capacity: 0
+Bin (Capacity: 56, Cost: 10):  - Used Capacity: 0
+Bin (Capacity: 43, Cost: 5):  - Used Capacity: 0
+Bin (Capacity: 39, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 55, Cost: 20):  - Used Capacity: 0
+Bin (Capacity: 46, Cost: 9):  - Used Capacity: 0
+Bin (Capacity: 37, Cost: 20):  - Used Capacity: 0
+Bin (Capacity: 59, Cost: 13):  - Used Capacity: 0
+Bin (Capacity: 34, Cost: 24):  - Used Capacity: 0
+Bin (Capacity: 46, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 57, Cost: 16):  - Used Capacity: 0
+Bin (Capacity: 48, Cost: 6):  - Used Capacity: 0
+Bin (Capacity: 28, Cost: 10):  - Used Capacity: 0
+Bin (Capacity: 26, Cost: 7):  - Used Capacity: 0
+Bin (Capacity: 21, Cost: 13):  - Used Capacity: 0
+Bin (Capacity: 25, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 30, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 30, Cost: 11):  - Used Capacity: 0
+Bin (Capacity: 22, Cost: 9):  - Used Capacity: 0
+Bin (Capacity: 32, Cost: 8):  - Used Capacity: 0
+Bin (Capacity: 27, Cost: 24):  - Used Capacity: 0
+Bin (Capacity: 26, Cost: 22):  - Used Capacity: 0
+Bin (Capacity: 21, Cost: 11):  - Used Capacity: 0
+Bin (Capacity: 45, Cost: 22):  - Used Capacity: 0
+Bin (Capacity: 30, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 31, Cost: 16):  - Used Capacity: 0
+Bin (Capacity: 37, Cost: 20):  - Used Capacity: 0
+Bin (Capacity: 60, Cost: 21):  - Used Capacity: 0
+Bin (Capacity: 56, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 58, Cost: 24):  - Used Capacity: 0
+Bin (Capacity: 34, Cost: 19):  - Used Capacity: 0
+Bin (Capacity: 25, Cost: 6):  - Used Capacity: 0
+Bin (Capacity: 53, Cost: 9):  - Used Capacity: 0
+Bin (Capacity: 57, Cost: 11):  - Used Capacity: 0
+Bin (Capacity: 46, Cost: 16):  - Used Capacity: 0
+Bin (Capacity: 50, Cost: 16):  - Used Capacity: 0
+Bin (Capacity: 44, Cost: 7):  - Used Capacity: 0
+Bin (Capacity: 22, Cost: 12):  - Used Capacity: 0
+Bin (Capacity: 48, Cost: 17):  - Used Capacity: 0
+Bin (Capacity: 60, Cost: 18):  - Used Capacity: 0
+Bin (Capacity: 48, Cost: 10):  - Used Capacity: 0
+Bin (Capacity: 46, Cost: 8):  - Used Capacity: 0
+Bin (Capacity: 49, Cost: 19):  - Used Capacity: 0
+Bin (Capacity: 59, Cost: 15):  - Used Capacity: 0
+Bin (Capacity: 52, Cost: 22):  - Used Capacity: 0
+Bin (Capacity: 52, Cost: 19):  - Used Capacity: 0
+Bin (Capacity: 23, Cost: 5):  - Used Capacity: 0
+Bin (Capacity: 24, Cost: 20):  - Used Capacity: 0
+Bin (Capacity: 21, Cost: 6):  - Used Capacity: 0
+Bin (Capacity: 27, Cost: 21):  - Used Capacity: 0
+Bin (Capacity: 38, Cost: 23):  - Used Capacity: 0
+Bin (Capacity: 28, Cost: 17):  - Used Capacity: 0
+Bin (Capacity: 35, Cost: 19):  - Used Capacity: 0
+Bin (Capacity: 39, Cost: 21):  - Used Capacity: 0
+Bin (Capacity: 54, Cost: 14):  - Used Capacity: 0
+Bin (Capacity: 48, Cost: 9):  - Used Capacity: 0
+Bin (Capacity: 50, Cost: 12):  - Used Capacity: 0
+Bin (Capacity: 32, Cost: 21):  - Used Capacity: 0
+Bin (Capacity: 47, Cost: 5):  - Used Capacity: 0
+Bin (Capacity: 47, Cost: 22):  - Used Capacity: 0
+Bin (Capacity: 29, Cost: 13):  - Used Capacity: 0
+Bin (Capacity: 22, Cost: 11):  - Used Capacity: 0
+Bin (Capacity: 53, Cost: 24):  - Used Capacity: 0
+Bin (Capacity: 24, Cost: 17):  - Used Capacity: 0
+Bin (Capacity: 20, Cost: 17):  - Used Capacity: 0
+Bin (Capacity: 38, Cost: 15):  - Used Capacity: 0
+Bin (Capacity: 54, Cost: 9):  - Used Capacity: 0
+Bin (Capacity: 44, Cost: 11):  - Used Capacity: 0
+Bin (Capacity: 41, Cost: 14):  - Used Capacity: 0
+Bin (Capacity: 41, Cost: 13):  - Used Capacity: 0
+Bin (Capacity: 43, Cost: 24):  - Used Capacity: 0
+Bin (Capacity: 30, Cost: 19):  - Used Capacity: 0
+Bin (Capacity: 28, Cost: 8): 20  - Used Capacity: 20
+Bin (Capacity: 33, Cost: 18):  - Used Capacity: 0
+Bin (Capacity: 30, Cost: 21):  - Used Capacity: 0
+Bin (Capacity: 21, Cost: 6):  - Used Capacity: 0
+Bin (Capacity: 24, Cost: 24):  - Used Capacity: 0
+Bin (Capacity: 33, Cost: 13):  - Used Capacity: 0
+Bin (Capacity: 25, Cost: 21):  - Used Capacity: 0
+Bin (Capacity: 25, Cost: 17):  - Used Capacity: 0
+Bin (Capacity: 41, Cost: 10):  - Used Capacity: 0
+Bin (Capacity: 43, Cost: 12):  - Used Capacity: 0
+Bin (Capacity: 33, Cost: 10):  - Used Capacity: 0
+Bin (Capacity: 58, Cost: 16):  - Used Capacity: 0
+Bin (Capacity: 24, Cost: 8):  - Used Capacity: 0
+Bin (Capacity: 28, Cost: 11):  - Used Capacity: 0
+Bin (Capacity: 45, Cost: 20):  - Used Capacity: 0
+Bin (Capacity: 56, Cost: 16):  - Used Capacity: 0
+Bin (Capacity: 41, Cost: 20):  - Used Capacity: 0
+Bin (Capacity: 33, Cost: 12):  - Used Capacity: 0
+Bin (Capacity: 43, Cost: 5):  - Used Capacity: 0
+Bin (Capacity: 52, Cost: 8):  - Used Capacity: 0
+Bin (Capacity: 35, Cost: 18):  - Used Capacity: 0
+Bin (Capacity: 37, Cost: 16):  - Used Capacity: 0
+Bin (Capacity: 56, Cost: 12):  - Used Capacity: 0
+Bin (Capacity: 35, Cost: 10):  - Used Capacity: 0
+Bin (Capacity: 55, Cost: 19):  - Used Capacity: 0
+Bin (Capacity: 49, Cost: 16):  - Used Capacity: 0
+Total Cost: 3291
+Total number of bins used: 225

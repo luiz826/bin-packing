@@ -1,0 +1,27 @@
+Bin (Capacity: 20, Cost: 6): 16 3 1  - Used Capacity: 20
+Bin (Capacity: 32, Cost: 22): 5 11 12 1 1 1  - Used Capacity: 31
+Bin (Capacity: 36, Cost: 8): 12 6 9 5 3  - Used Capacity: 35
+Bin (Capacity: 49, Cost: 13): 15 18 15  - Used Capacity: 48
+Bin (Capacity: 52, Cost: 24): 13 5 11 17 3 2  - Used Capacity: 51
+Bin (Capacity: 51, Cost: 16): 9 18 10 13  - Used Capacity: 50
+Bin (Capacity: 40, Cost: 8): 9 7 11 13  - Used Capacity: 40
+Bin (Capacity: 27, Cost: 11): 10 14 2  - Used Capacity: 26
+Bin (Capacity: 34, Cost: 5): 19 11 3  - Used Capacity: 33
+Bin (Capacity: 40, Cost: 8): 18 17  - Used Capacity: 35
+Bin (Capacity: 50, Cost: 11): 18 15 16  - Used Capacity: 49
+Bin (Capacity: 21, Cost: 20): 7 10  - Used Capacity: 17
+Bin (Capacity: 58, Cost: 18): 19 19 15  - Used Capacity: 53
+Bin (Capacity: 27, Cost: 12):  - Used Capacity: 0
+Bin (Capacity: 37, Cost: 7): 15 9  - Used Capacity: 24
+Bin (Capacity: 40, Cost: 22):  - Used Capacity: 0
+Bin (Capacity: 35, Cost: 15):  - Used Capacity: 0
+Bin (Capacity: 41, Cost: 24):  - Used Capacity: 0
+Bin (Capacity: 28, Cost: 16):  - Used Capacity: 0
+Bin (Capacity: 28, Cost: 10):  - Used Capacity: 0
+Bin (Capacity: 31, Cost: 13):  - Used Capacity: 0
+Bin (Capacity: 48, Cost: 10):  - Used Capacity: 0
+Bin (Capacity: 44, Cost: 6):  - Used Capacity: 0
+Bin (Capacity: 50, Cost: 19):  - Used Capacity: 0
+Bin (Capacity: 22, Cost: 6): 20  - Used Capacity: 20
+Total Cost: 183
+Total number of bins used: 15
